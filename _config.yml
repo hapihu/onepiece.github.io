@@ -67,9 +67,16 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: default_to_category
 category_map:
+  默认目录: default_to_category
+  大数据: bigData
+  工具: tool
+  开发工具: tool/develop
+  测试工具: tool/test
 tag_map:
+  flink: flink
+  流式计算: stream
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
