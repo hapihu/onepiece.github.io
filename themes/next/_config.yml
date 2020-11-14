@@ -263,13 +263,16 @@ tag_icon: false
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, reward will be displayed in every article by default.
-  enable: false
+  enable: true
   animation: false
-  #comment: Donate comment here.
+  comment: 我❤️小💰💰
+
+#wechatpay: https://gitee.com/happyHapihu/ggsd-ddu-summary/blob/master/image/money/wechat.jpg
+#alipay: https://gitee.com/happyHapihu/ggsd-ddu-summary/blob/master/image/money/alipay.jpg
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  wechatpay: /images/wechat.jpg
+  alipay: /images/alipay.jpg
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
@@ -565,10 +568,10 @@ quicklink:
 # Multiple Comment System Support
 comments:
   # Available values: tabs | buttons
-  style: tabs
+  style: buttons
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active:
+  active: gitalk
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -635,17 +638,17 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: false
-  github_id: # GitHub repo owner
-  repo: # Repository name to store issues
-  client_id: # GitHub Application Client ID
-  client_secret: # GitHub Application Client Secret
-  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  enable: true
+  github_id: hapihu # GitHub repo owner
+  repo: onepiece.github.io # Repository name to store issues
+  client_id: 59399f7d80e8a0969145 # GitHub Application Client ID
+  client_secret: sdf # GitHub Application Client Secret
+  admin_user: hapihu # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
-  language:
+  language: zh-CN
 
 
 # ---------------------------------------------------------------
@@ -824,6 +827,7 @@ mermaid:
 
 # Use velocity to animate everything.
 # For more information: http://velocityjs.org
+
 motion:
   enable: true
   async: false
@@ -855,16 +859,16 @@ pace:
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
 three:
-  enable: false
-  three_waves: false
-  canvas_lines: false
-  canvas_sphere: false
+  enable: true
+  three_waves: true
+  canvas_lines: true
+  canvas_sphere: true
 
 # Canvas-ribbon
 # Dependencies: https://github.com/theme-next/theme-next-canvas-ribbon
 # For more information: https://github.com/zproo/canvas-ribbon
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
@@ -999,6 +1003,3 @@ js: js
 images: images
 
 
-reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: https://gitee.com/happyHapihu/ggsd-ddu-summary/blob/master/image/money/wechat.jpg
-alipay: https://gitee.com/happyHapihu/ggsd-ddu-summary/blob/master/image/money/alipay.jpg
