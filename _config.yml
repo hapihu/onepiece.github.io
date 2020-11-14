@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -74,6 +74,7 @@ category_map:
   工具: tool
   开发工具: tool/develop
   测试工具: tool/test
+  博客工具: tool/blogs/hexo
 tag_map:
   flink: flink
   流式计算: stream
