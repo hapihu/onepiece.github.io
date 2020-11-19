@@ -299,299 +299,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://hapihu.github.io/2020/11/14/MarkDown.assets/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/onepiece.github.io/images/avatar.gif">
-      <meta itemprop="name" content="hapihu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="槑小喵">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/onepiece.github.io/2020/11/14/MarkDown.assets/" class="post-title-link" itemprop="url">学习使用MarkDown</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-11-14 16:48:46" itemprop="dateCreated datePublished" datetime="2020-11-14T16:48:46+08:00">2020-11-14</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-11-20 00:01:07" itemprop="dateModified" datetime="2020-11-20T00:01:07+08:00">2020-11-20</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/onepiece.github.io/categories/MarkDown/" itemprop="url" rel="index"><span itemprop="name">MarkDown</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="更改字体、大小、颜色"><a href="#更改字体、大小、颜色" class="headerlink" title="更改字体、大小、颜色"></a>更改字体、大小、颜色</h1><p><font color="Blue">Markdown语法</font></p>
-<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=&quot;黑体&quot;&gt;我是黑体字&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;</span><br><span class="line">&lt;font color=red&gt;我是红色&lt;/font&gt;</span><br><span class="line">&lt;font color=#008000&gt;我是绿色&lt;/font&gt;</span><br><span class="line">&lt;font color=Blue&gt;我是蓝色&lt;/font&gt;</span><br><span class="line">&lt;font size=5&gt;我是尺寸&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;黑体&quot; color=green size=5&gt;我是黑体，绿色，尺寸为5&lt;/font&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p><font color="Blue">效果如下：</font></p>
-<p><font face="黑体">我是黑体字</font><br><font face="微软雅黑">我是微软雅黑</font><br><font face="STCAIYUN">我是华文彩云</font><br><font color="red">我是红色</font><br><font color="#008000">我是绿色</font><br><font color="Blue">我是蓝色</font><br><font size="5">我是尺寸</font><br><font face="黑体" color="green" size="5">我是黑体，绿色，尺寸为5</font></p>
-<hr>
-<h1 id="为文字添加背景色"><a href="#为文字添加背景色" class="headerlink" title="为文字添加背景色"></a>为文字添加背景色</h1><p>由于 style 标签和标签的 style 属性不被支持，所以这里只能是借助 table, tr, td 等表格标签的 bgcolor 属性来实现背景色。故这里对于文字背景色的设置，只是将那一整行看作一个表格，更改了那个格子的背景色（bgcolor）</p>
-<p><font color="Blue">Markdown语法</font></p>
-<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=yellow&gt;背景色yellow&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p><font color="Blue">效果如下</font></p>
-<table><tr><td bgcolor="yellow">背景色yellow</td></tr></table>
-
-<hr>
-<h1 id="设置图片大小"><a href="#设置图片大小" class="headerlink" title="设置图片大小"></a>设置图片大小</h1><h2 id="设置设置图片百分比"><a href="#设置设置图片百分比" class="headerlink" title="设置设置图片百分比"></a>设置设置图片百分比</h2><p><font color="Blue">Markdown语法</font></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src&#x3D;&quot;http:&#x2F;&#x2F;pic11.photophoto.cn&#x2F;20090626&#x2F;0036036341009653_b.jpg&quot; width&#x3D;&quot;50%&quot; height&#x3D;&quot;50%&quot;&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p><font color="Blue">效果如下</font><br><img src="http://pic11.photophoto.cn/20090626/0036036341009653_b.jpg" width="50%" height="50%"></p>
-<h2 id="设置图片大小-1"><a href="#设置图片大小-1" class="headerlink" title="设置图片大小"></a>设置图片大小</h2><p><font color="Blue">Markdown语法</font></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src&#x3D;&quot;http:&#x2F;&#x2F;pic11.photophoto.cn&#x2F;20090626&#x2F;0036036341009653_b.jpg&quot; width&#x3D;&quot;251&quot; height&#x3D;&quot;350&quot; &gt;</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
-
-<p><font color="Blue">效果如下</font><br><img src="http://pic11.photophoto.cn/20090626/0036036341009653_b.jpg" alt="img"></p>
-<h2 id="设置图片居中"><a href="#设置图片居中" class="headerlink" title="设置图片居中"></a>设置图片居中</h2><p><font color="Blue">Markdown语法</font></p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;http://pic11.photophoto.cn/20090626/0036036341009653_b.jpg&quot;</span> <span class="attr">width</span>=<span class="string">&quot;50%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;50%&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p><font color="Blue">效果如下</font></p>
-<div align="center"><img src="http://pic11.photophoto.cn/20090626/0036036341009653_b.jpg" width="50%" height="50%"></div>
-
-
-
-<h1 id="类图"><a href="#类图" class="headerlink" title="类图"></a>类图</h1><h2 id="定义类"><a href="#定义类" class="headerlink" title="定义类"></a>定义类</h2><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">class Square~Shape~&#123;</span><br><span class="line"><span class="code">    int id</span></span><br><span class="line"><span class="code">    List~int~ position</span></span><br><span class="line"><span class="code">    setPoints(List~int~ points)</span></span><br><span class="line"><span class="code">    getPoints() List~int~</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">Square : -List~string~ messages</span></span><br><span class="line"><span class="code">Square : +setMessages(List~string~ messages)</span></span><br><span class="line"><span class="code">Square : +getMessages() List~string~</span></span><br></pre></td></tr></table></figure>
-
-
-
-<pre class="mermaid">classDiagram
-class Square~Shape~{
-    int id
-    List~int~ position
-    setPoints(List~int~ points)
-    getPoints() List~int~
-}
-
-Square : -List~string~ messages
-Square : +setMessages(List~string~ messages)
-Square : +getMessages() List~string~</pre>
-
-
-
-<h3 id="类的标识"><a href="#类的标识" class="headerlink" title="类的标识"></a>类的标识</h3><ul>
-<li><code>&lt;&lt;Interface&gt;&gt;</code> To represent an Interface class</li>
-<li><code>&lt;&lt;abstract&gt;&gt;</code> To represent an abstract class</li>
-<li><code>&lt;&lt;Service&gt;&gt;</code> To represent a service class</li>
-<li><code>&lt;&lt;enumeration&gt;&gt;</code> To represent an enum</li>
-</ul>
-<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">class 接口示例</span><br><span class="line">&lt;&lt;interface&gt;&gt; 接口示例</span><br><span class="line"></span><br><span class="line">class 抽象类示例</span><br><span class="line">&lt;&lt;abstract&gt;&gt; 抽象类示例</span><br><span class="line"></span><br><span class="line">class Shape&#123;</span><br><span class="line">    &lt;&lt;interface&gt;&gt;</span><br><span class="line">    noOfVertices</span><br><span class="line">    draw()</span><br><span class="line">&#125;</span><br><span class="line">class Color&#123;</span><br><span class="line">    &lt;&lt;enumeration&gt;&gt;</span><br><span class="line">    RED</span><br><span class="line">    BLUE</span><br><span class="line">    GREEN</span><br><span class="line">    WHITE</span><br><span class="line">    BLACK</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<pre class="mermaid">classDiagram
-class 接口示例
-<<interface>> 接口示例
-
-class 抽象类示例
-<<abstract>> 抽象类示例
-
-class Shape{
-    <<interface>>
-    noOfVertices
-    draw()
-}
-class Color{
-    <<enumeration>>
-    RED
-    BLUE
-    GREEN
-    WHITE
-    BLACK
-}</enumeration></interface></abstract></interface></pre>
-
-
-
-
-
-<h2 id="定义成员"><a href="#定义成员" class="headerlink" title="定义成员"></a>定义成员</h2><ul>
-<li><code>+</code> Public</li>
-<li><code>-</code> Private</li>
-<li><code>#</code> Protected</li>
-<li><code>~</code> Package/Internal</li>
-</ul>
-<h2 id="关系分类"><a href="#关系分类" class="headerlink" title="关系分类"></a>关系分类</h2><table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&lt;|–</td>
-<td>Inheritance</td>
-</tr>
-<tr>
-<td>*–</td>
-<td>Composition</td>
-</tr>
-<tr>
-<td>o–</td>
-<td>Aggregation</td>
-</tr>
-<tr>
-<td>–&gt;</td>
-<td>Association</td>
-</tr>
-<tr>
-<td>–</td>
-<td>Link (Solid)</td>
-</tr>
-<tr>
-<td>..&gt;</td>
-<td>Dependency</td>
-</tr>
-<tr>
-<td>..|&gt;</td>
-<td>Realization</td>
-</tr>
-<tr>
-<td>..</td>
-<td>Link (Dashed)</td>
-</tr>
-</tbody></table>
-<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">classA --|&gt; classB : Inheritance</span><br><span class="line">classC --<span class="emphasis">* classD : Composition</span></span><br><span class="line"><span class="emphasis">classE --o classF : Aggregation</span></span><br><span class="line"><span class="emphasis">classG --&gt; classH : Association</span></span><br><span class="line"><span class="emphasis">classI -- classJ : Link(Solid)</span></span><br><span class="line"><span class="emphasis">classK ..&gt; classL : Dependency</span></span><br><span class="line"><span class="emphasis">classM ..|&gt; classN : Realization</span></span><br><span class="line"><span class="emphasis">classO .. classP : Link(Dashed)</span></span><br></pre></td></tr></table></figure>
-
-<pre class="mermaid">classDiagram
-classA --|> classB : Inheritance
-classC --* classD : Composition
-classE --o classF : Aggregation
-classG --> classH : Association
-classI -- classJ : Link(Solid)
-classK ..> classL : Dependency
-classM ..|> classN : Realization
-classO .. classP : Link(Dashed)</pre>
-<h3 id="关系-示例"><a href="#关系-示例" class="headerlink" title="关系-示例"></a>关系-示例</h3><p><a target="_blank" rel="noopener" href="https://mermaid-js.github.io/mermaid/#/classDiagram?id=syntax">官网</a></p>
-<p><img src="/onepiece.github.io/2020/11/14/MarkDown.assets/image-20201119130359976.png" alt="image-20201119130359976"></p>
-<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><ul>
-<li>继承<ul>
-<li>java：extends</li>
-<li>继承是类与类的关系；</li>
-<li>接口与接口之间的关系</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">A  &lt;|-- B : Inheritance</span><br><span class="line">父类  &lt;|-- 子类 : Inheritance</span><br><span class="line">父接口类  &lt;|-- 子接口类 : Inheritance</span><br></pre></td></tr></table></figure>
-<pre class="mermaid">classDiagram
-A  <|-- b : inheritance 父类 <|-- 子类 父接口类 子接口类 inheritance< pre>
-<h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><ul>
-<li>实现<ul>
-<li>java：implements</li>
-<li>实现是类与接口之间最常见的关系; </li>
-<li>B类实现A接口</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">A  &lt;|.. B : Realization</span><br><span class="line">接口类  &lt;|.. 实现类 : Realization</span><br></pre></td></tr></table></figure>
-<pre class="mermaid">classDiagram
-A  <|.. b : realization 接口类 <|.. 实现类 realization< pre>
-
-<h3 id="依赖"><a href="#依赖" class="headerlink" title="依赖"></a>依赖</h3><ul>
-<li>依赖<ul>
-<li>一个类A使用到了另一个类B</li>
-<li>A作为B类方法的入参使用</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">A  &lt;.. B : Dependency</span><br><span class="line">class B&#123;</span><br><span class="line">	method(A a)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<pre class="mermaid">classDiagram
-A  <.. b : dependency class b{ method(a a) }< pre>
-
-<h3 id="关联"><a href="#关联" class="headerlink" title="关联"></a>关联</h3><ul>
-<li>关联<ul>
-<li>一种强依赖关系</li>
-<li>类A以类属性的形式出现在关联类B中</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">A  &lt;-- B : Association</span><br></pre></td></tr></table></figure>
-<pre class="mermaid">classDiagram
-A  <-- b : association class b{ a }< pre>
-
-<h3 id="聚合"><a href="#聚合" class="headerlink" title="聚合"></a>聚合</h3><ul>
-<li>聚合<ul>
-<li>关联关系的一种特例；</li>
-<li>他体现的是整体与部分、拥有的关系；</li>
-<li>即has-a的关系</li>
-<li>语义级别的区分</li>
-<li>公司与员工的关系</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">公司  o-- 员工 : Aggregation</span><br></pre></td></tr></table></figure>
-<pre class="mermaid">classDiagram
-公司  o-- 员工 : Aggregation</pre>
-
-<h3 id="组合"><a href="#组合" class="headerlink" title="组合"></a>组合</h3><ul>
-<li>组合<ul>
-<li>组合也是关联关系的一种特例</li>
-<li>他体现的是一种contains-a的关系；</li>
-<li>这种关系比聚合更强，也称为强聚合</li>
-<li>人和大脑的关系</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">人  *-- 大脑 : Composition</span><br></pre></td></tr></table></figure>
-<pre class="mermaid">classDiagram
-人  *-- 大脑 : Composition</pre>
-<h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/heimu24/article/details/81192697">RGB颜色对照表</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qcx321/article/details/53780672">Markdown 语法大全 包括设置字体 颜色</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.appinn.com/markdown/basic.html">Markdown: Basics （快速入门）</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/thither_shore/article/details/52181464">CSDN-markdown 文字样式设置（字体, 大小, 颜色, 高亮底色）</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/heimu24/article/details/81189700">Markdown进阶</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/sfdev/article/details/3906243">类图</a></p>
-<p><a target="_blank" rel="noopener" href="https://mermaid-js.github.io/mermaid/#/classDiagram?id=syntax">markdonw绘制类图</a></p>
-</--></pre></..></pre></|..></pre></|--></pre>
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="https://hapihu.github.io/2020/11/14/test1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -641,6 +348,87 @@ A  <-- b : association class b{ a }< pre>
 
       
           
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://hapihu.github.io/2020/11/14/MarkDown.assets/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/onepiece.github.io/images/avatar.gif">
+      <meta itemprop="name" content="hapihu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="槑小喵">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/onepiece.github.io/2020/11/14/MarkDown.assets/" class="post-title-link" itemprop="url">学习使用MarkDown</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-11-14 16:48:46" itemprop="dateCreated datePublished" datetime="2020-11-14T16:48:46+08:00">2020-11-14</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-11-20 00:02:37" itemprop="dateModified" datetime="2020-11-20T00:02:37+08:00">2020-11-20</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/onepiece.github.io/categories/MarkDown/" itemprop="url" rel="index"><span itemprop="name">MarkDown</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>更改字体、颜色；画图</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/onepiece.github.io/2020/11/14/MarkDown.assets/">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -760,6 +548,13 @@ A  <-- b : association class b{ a }< pre>
 
               <time title="Created: 2020-11-13 10:11:52" itemprop="dateCreated datePublished" datetime="2020-11-13T10:11:52+08:00">2020-11-13</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-11-20 00:02:18" itemprop="dateModified" datetime="2020-11-20T00:02:18+08:00">2020-11-20</time>
+              </span>
 
           
 
@@ -772,20 +567,15 @@ A  <-- b : association class b{ a }< pre>
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+          <p>hello world</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/onepiece.github.io/2020/11/13/hello-world/">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
