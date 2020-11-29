@@ -642,7 +642,7 @@ gitalk:
   github_id: hapihu # GitHub repo owner
   repo: onepiece.github.io # Repository name to store issues
   client_id: 59399f7d80e8a0969145 # GitHub Application Client ID
-  client_secret: b335909b5cd85d458bba132d54ec3f9d5bf01d73 # GitHub Application Client Secret
+  client_secret: *** # GitHub Application Client Secret
   admin_user: hapihu # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
@@ -816,9 +816,10 @@ pdf:
 
 # Mermaid tag
 mermaid:
-  enable: false
+  enable: true
   # Available themes: default | dark | forest | neutral
   theme: forest
+
 
 
 # ---------------------------------------------------------------
@@ -973,10 +974,11 @@ vendors:
   instant_search:
 
   # Mermaid
-  # mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
+  mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
   # mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js
-  mermaid:
-
+  #mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.3/mermaid.min.js
+  #mermaid: //unpkg.com/browse/mermaid@8.8.3/dist/mermaid.min.js
+  #mermaid:
   # Internal version: 1.2.1
   # velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js
   # velocity: //cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.min.js
