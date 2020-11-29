@@ -8,3 +8,4 @@ public/
 package-lock.json
 yarn.lock
 .idea
+themes/next/_config.yml
