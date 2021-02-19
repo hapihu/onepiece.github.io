@@ -37,7 +37,7 @@ graph LR;
 
 ## 对比
 
-![Timsort Sorting Algorithm - Infopulse - 624512](../../../../../../../../../../Users/hapihu/Documents/Gitee/ggsd-ddu-summary/Algorithm/sort_algorithm.assets/timsort-algorythm-1st-screenshot-3284074.png)
+![Timsort Sorting Algorithm - Infopulse - 624512](sort_algorithm.assets/timsort-algorythm-1st-screenshot-3284074.png)
 
 ## 对比
 
@@ -46,7 +46,7 @@ graph LR;
   - 而外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。
 - 常见的内部排序算法有：**插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序**等。用一张图概括：
 
-![十大经典排序算法 概览截图](../../../../../../../../../../Users/hapihu/Documents/Gitee/ggsd-ddu-summary/Algorithm/sort_algorithm.assets/sort.png)
+![十大经典排序算法 概览截图](sort_algorithm.assets/sort.png)
 
 **关于时间复杂度**：
 
